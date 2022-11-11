@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F3EBD2 !important;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-image: url("imagens/background_navbar.jpg"); /*imagem verde por tras da nav*/
+  z-index: 99;
+}
+
+.navGeral{
+  display: flex;
+}
+
+.paoEPesquisa{
+  display: flex;
+  flex-direction:row; 
+  justify-content:left;
+  align-items: center;
+}
+
+#pao_icone {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-link{
+  color:#523838;
+}
+
+nav li {
+  padding-top: 5px;
+  float: left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:13px;
+  list-style: none;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.header_logo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #523838;
+  font-family: 'My Soul', cursive;
+  color: #B0B888;
+}
+
+.header_logo h1 {
+  margin: 0;
+  font-size: 100px;
+}
+
+#pao_icone{
+  padding-top: 7px;
+}
+
+
+#encomendas_box:hover {
+  background-color: #eea053;
+}
+
+#encomendas_box {
+  height: 33px;
+  width: 117px;
+  background-color: #D38130;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#divBusca {
+  background-color:#F3F0E3;
+  border-radius:10px;
+  margin-top: 5px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca {
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width: 280px;
+}
+
+#divBusca img {
+  padding-top: 11px;
+  float:left;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-content img{
+  display: block;
+  margin-top: 5px;
+}
+
+
+.column-right {
+  flex: 1;
+  text-align: center;
+  justify-content: right;
+  padding: 10px;
+  color: #523838;
+}
+
+.column-right h1 {
+  padding: 10% 15% 0; /*superior, direita, inferior, esquerda*/
+}
+
+.column-right h4 {
+  padding: 5% 10%;
+}
+
+.main-content2 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.main-content2 img{
+  display: block;
+  margin-top: 5px;
+}
+
+
+.column-right2 {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align: center;
+  color: #523838;
+  padding-right: 2%;
+}
+
+.column-left2 {
+  padding-left: 2%;
+}
+
+.column-right2 h3 {
+  font-style: oblique;
+}
+.column-right2 h6 {
+  text-align:left;
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  color: #B0B888;
+  padding-top: 70px;
+  background-color: #523838;
+}
+
+footer h1{
+  font-family: 'My Soul', cursive;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.nav-link-footer{
+  color:#B0B888;
+}
+
+.divsFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-bottom: 70px;
+}
+
+.footerEsquerda {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.footerMeio {
+  padding-top: 60px;
+  padding-left: 15%;
+  padding-right: 15%; 
+  font-size: 25px;
+}
+
+.footerDireita {
+  padding-top: 60px;
+  padding-right: 10%;
+}
+
+.smart{
+  padding-bottom: 10px;
+}
+
+.apps {
+  padding-top: 8px;
+}
+
+.desenvolvedores {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
